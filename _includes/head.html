@@ -1,0 +1,22 @@
+
+  <head>
+    <meta content="en-au" http-equiv="Content-Language" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+    <meta name="Author" content="{{ site.author }}" />
+    <meta name="description" content="{{ site.description }}" />
+
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Blog Feed" />
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Blog Feed" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    {% if page.title == "Home" %}
+    <title>{{ site.name }}</title>
+    {% else %}
+    <title>{{ page.title }} - {{ site.name }}</title>
+    {% endif %}
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+  </head>

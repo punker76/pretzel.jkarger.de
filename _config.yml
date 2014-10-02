@@ -1,2 +1,22 @@
+# pretzel settings
 pretzel: 
     engine: liquid
+
+markdown: redcarpet
+
+# blog settings
+author      : Jan Karger
+name        : Jan Karger - Punk's not dead!
+title       : jkarger.de
+description : Punk's not dead!
+url         : http://jkarger.de
+paginate    : 10
+
+# twitter
+twitter : punker76
+
+# comments -> disqus
+comments :
+  provider : disqus
+  disqus :
+    short_name : punker76

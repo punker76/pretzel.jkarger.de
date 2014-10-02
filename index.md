@@ -1,6 +1,6 @@
 ---
 layout : layout
-title : SiteName
+title : Home
 ---
 
 <ul class="posts">
